@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Esplanade Restaurant & Terrace</title>
+    <link rel="stylesheet" href="../css/style.css" type="text/css" id="contact-item">
+    <link rel="icon" href="../images/logo.png">
+    <style>
+        /* CSS for booking form */
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="#" class="navbar-logo"><img src="../images/logo.png" alt="Esplanade Restaurant & Terrace Logo"></a>
+            <div class="navbar-hamburger" onclick="toggleNavbar()">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <ul class="navbar-menu" id="navbarMenu">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="menu.html">Menu</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="booking.html">Booking</a></li>
+              <li><a href="event.html">Events</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="navbar-links">
+              <a href="index.html">Home</a>
+              <a href="menu.html">Menu</a>
+              <a href="gallery.html">Gallery</a>
+              <a href="booking.html">Booking</a>
+              <a href="event.html">Events</a>
+              <a href="contact.html">Contact</a>
+            </div>
+          </nav>
+    </header>
+    <h1>Booking</h1>
+    <div class="container">
+        <h1>Booking Now</h1>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email">
+
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" placeholder="Enter your address">
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date">
+
+            <label for="mobile">Mobile:</label>
+            <input type="text" id="mobile" name="mobile" placeholder="Enter your mobile number">
+
+            <div style="margin-bottom: 10px;">
+            <label for="country">Country:</label>
+            <input list="countries" id="country" name="country" placeholder="Select your country">
+            <datalist id="countries">
+                <option value="Afghanistan">
+                <option value="Argentina">
+                <option value="Australia">
+                <!-- Add more country options here -->
+            </datalist>
+            </div>
+            
+            <div style="margin-bottom: 10px;">
+            <label for="terraces">Terraces:</label>
+            <input list="terrace-options" id="terraces" name="terraces" placeholder="Select a terrace">
+            <datalist id="terrace-options">
+                <option value="Luxury Terrace">
+                <option value="Deluxe Terrace">
+                <!-- Add more terrace options here -->
+            </datalist>
+            </div>
+
+            <div style="margin-bottom: 10px;">
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+            </div>
+            
+            <div style="margin-bottom: 10px;">
+            <label>Language:</label>
+            <input type="radio" id="english" name="language" value="english">
+            <label for="english">English</label>
+            <input type="radio" id="other-lang" name="language" value="other">
+            <label for="other-lang">Other</label>
+            </div>
+            <div style="margin-bottom: 10px;">
+            <label for="upload">Upload File:</label>
+            <input type="file" id="upload" name="upload">
+            </div>
+
+            <input type="submit" value="Submit" class="submit-button">
+        </form>
+    </div>
+    <script src="../js/main.js"></script>
+
+</body>
+</html>

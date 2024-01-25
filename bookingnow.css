@@ -1,0 +1,26 @@
+
+body {background-color: rgb(244, 156, 79);
+}
+
+h1{
+	color: rgb(66, 131, 237);
+}
+p{
+	color: black;
+	font-size: 20px;
+
+    font-family: serif;
+}
+.a {
+	color: rgb(10, 4, 53);
+	font-size: 20px;
+
+    font-family: serif;
+
+}
+.column{
+  float: right;
+  width: 33.33%;
+  padding: 6px;
+
+}

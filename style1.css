@@ -1,0 +1,908 @@
+/* CSS styles for the Esplanade Restaurant & Terrace */
+
+body,
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.hamburger-menu {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.hamburger {
+  width: 30px;
+  height: 3px;
+  background-color: #000;
+  margin-bottom: 5px;
+}
+
+header {
+  background-color: #eeaa50;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #040404;
+  padding: 20px;
+}
+
+/* Hero Section */
+.hero {
+  padding: 180px 0;
+  background-image: url("../images/home-page.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  object-fit: contain;
+}
+
+.hero__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 90%;
+  text-align: center;
+}
+
+.hero__head {
+  font-size: 95px;
+  margin-bottom: 22px;
+  color: #f39d34;
+}
+
+.hero__head span {
+  background: #f57927;
+  background: -webkit-linear-gradient(to right, #f18e31, #f09b34);
+  background: linear-gradient(to right, #eb9d28, #eb7536ef);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -mo-text-fill-color: transparent;
+}
+
+.hero__description {
+  font-size: 45px;
+  background: #ed9a1d;
+  background: #eb8a28;
+  background: -webkit-linear-gradient(to right, #ee750b, #df8b0d, #e68600);
+  background: linear-gradient(to right, #dc620b, #eea528, #f69c00);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.highlight {
+  border-bottom: 4px solid rgb(147, 145, 145);
+  transition: 0.3s;
+}
+/* Section styles */
+section {
+  padding: 50px;
+  text-align: center;
+}
+.h {
+  display: grid;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif, sans-serif;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  object-fit: contain;
+  background-color: #f8ae6e;
+}
+
+h1 {
+  text-align: center;
+  padding: 20;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 90%;
+  text-align: center;
+  background-image: url("../images/menu-page.jpg");
+}
+
+.menu-item {
+  width: 300px;
+  padding: 20px;
+  margin: 10px;
+  background-color: #eeeeed;
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.card-container {
+  text-align: center;
+}
+
+.card {
+  display: inline-block;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.card h2 {
+  margin-top: 10px;
+}
+
+.card p {
+  margin-top: 10px;
+}
+
+.card .button {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #f0f0f0;
+  color: #333;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+
+ /* CSS for booking form */
+ body {
+  background-color: #f8ae6e
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #4CAF50;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+.navbar {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 10px 20px;
+background-color: #f8ae6e;
+}
+
+.navbar-logo {
+font-size: 24px;
+font-weight: bold;
+}
+
+.navbar-links {
+display: none;
+}
+
+.navbar-menu {
+display: none;
+flex-direction: column;
+align-items: flex-start;
+background-color: #f9f9f9;
+position: absolute;
+top: 100%;
+left: 0;
+width: 100%;
+padding: 20px;
+transition: opacity 0.3s ease-in-out;
+opacity: 0;
+}
+
+.navbar-menu.open {
+opacity: 1;
+display: flex;
+}
+
+.navbar-menu li {
+margin-bottom: 10px;
+}
+
+.navbar-hamburger {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+width: 30px;
+height: 20px;
+cursor: pointer;
+}
+
+.navbar-hamburger span {
+width: 100%;
+height: 2px;
+background-color: #000000;
+}
+
+/* Media Query for Hamburger Menu */
+@media only screen and (max-width: 768px) {
+.navbar-links {
+display: none;
+}
+
+.navbar-hamburger {
+display: flex;
+}
+
+.navbar-menu {
+position: static;
+flex-direction: row;
+background-color: transparent;
+opacity: 1;
+}
+
+.navbar-menu li {
+margin-right: 15px;
+}
+
+.navbar-menu li:last-child {
+margin-right: 0;
+}
+}
+
+ /* Custom styles for enhanced UI design */
+ body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.contact-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.contact-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contact-container p {
+  margin-bottom: 10px;
+}
+
+.contact-container a {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+
+.contact-container a:hover {
+  background-color: #555;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+.navbar {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 10px 20px;
+background-color: #f8ae6e;
+}
+
+.navbar-logo {
+font-size: 24px;
+font-weight: bold;
+}
+
+.navbar-links {
+display: none;
+}
+
+.navbar-menu {
+display: none;
+flex-direction: column;
+align-items: flex-start;
+background-color: #f9f9f9;
+position: absolute;
+top: 100%;
+left: 0;
+width: 100%;
+padding: 20px;
+transition: opacity 0.3s ease-in-out;
+opacity: 0;
+}
+
+.navbar-menu.open {
+opacity: 1;
+display: flex;
+}
+
+.navbar-menu li {
+margin-bottom: 10px;
+}
+
+.navbar-hamburger {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+width: 30px;
+height: 20px;
+cursor: pointer;
+}
+
+.navbar-hamburger span {
+width: 100%;
+height: 2px;
+background-color: #000000;
+}
+
+/* Media Query for Hamburger Menu */
+@media only screen and (max-width: 768px) {
+.navbar-links {
+display: none;
+}
+
+.navbar-hamburger {
+display: flex;
+}
+
+.navbar-menu {
+position: static;
+flex-direction: row;
+background-color: transparent;
+opacity: 1;
+}
+
+.navbar-menu li {
+margin-right: 15px;
+}
+
+.navbar-menu li:last-child {
+margin-right: 0;
+}
+}
+
+
+        /* Add some custom styles for the UI enhancement */
+        .card {
+          position: relative;
+          transition: transform 0.3s;
+          cursor: pointer;
+      }
+
+      .card:hover {
+          transform: translateY(-5px);
+      }
+      .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #f8ae6e;
+  }
+
+  .navbar-logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .navbar-links {
+    display: none;
+  }
+
+  .navbar-menu {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #f9f9f9;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+  }
+
+  .navbar-menu.open {
+    opacity: 1;
+    display: flex;
+  }
+
+  .navbar-menu li {
+    margin-bottom: 10px;
+  }
+
+  .navbar-hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+  }
+
+  .navbar-hamburger span {
+    width: 100%;
+    height: 2px;
+    background-color: #000000;
+  }
+
+  /* Media Query for Hamburger Menu */
+  @media only screen and (max-width: 768px) {
+    .navbar-links {
+      display: none;
+    }
+
+    .navbar-hamburger {
+      display: flex;
+    }
+
+    .navbar-menu {
+      position: static;
+      flex-direction: row;
+      background-color: transparent;
+      opacity: 1;
+    }
+
+    .navbar-menu li {
+      margin-right: 15px;
+    }
+
+    .navbar-menu li:last-child {
+      margin-right: 0;
+    }
+  }
+
+  body {
+    background-color: #f8ae6e;
+  }
+
+  .carousel-item img {
+    height: 400px; /* Adjust the height as needed */
+    object-fit: cover;
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #f8ae6e;
+  }
+
+  .navbar-logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .navbar-links {
+    display: none;
+  }
+
+  .navbar-menu {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #f8ae6e;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+  }
+
+  .navbar-menu.open {
+    opacity: 1;
+    display: flex;
+  }
+
+  .navbar-menu li {
+    margin-bottom: 10px;
+  }
+
+  .navbar-hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+  }
+
+  .navbar-hamburger span {
+    width: 100%;
+    height: 2px;
+    background-color: #000000;
+  }
+
+  /* Media Query for Hamburger Menu */
+  @media only screen and (max-width: 768px) {
+    .navbar-links {
+      display: none;
+    }
+
+    .navbar-hamburger {
+      display: flex;
+    }
+
+    .navbar-menu {
+      position: static;
+      flex-direction: row;
+      background-color: transparent;
+      opacity: 1;
+    }
+
+    .navbar-menu li {
+      margin-right: 15px;
+    }
+
+    .navbar-menu li:last-child {
+      margin-right: 0;
+    }
+  }
+
+
+  /* Add any additional CSS styles for enhanced UI design here */
+  .hero {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .slideshow-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+  .slideshow {
+    height: 100%;
+    width: auto;
+    animation: slide 10s infinite;
+  }
+
+  .hero__container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+  }
+
+  #copyText {
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .hero__description {
+    font-size: 36px;
+    color: white;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  #blink {
+    background-color: rgb(182, 144, 40);
+    margin: 20px;
+    font-size: 22px;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  @keyframes slide {
+    0% {
+      opacity: 0;
+    }
+    25% {
+      opacity: 1;
+    }
+    75% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  /* Added CSS for Hamburger Menu */
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #f8ae6e;
+  }
+
+  .navbar-logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .navbar-links {
+    display: none;
+  }
+
+  .navbar-menu {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #f9f9f9;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+  }
+
+  .navbar-menu.open {
+    opacity: 1;
+    display: flex;
+  }
+
+  .navbar-menu li {
+    margin-bottom: 10px;
+  }
+
+  .navbar-hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+  }
+
+  .navbar-hamburger span {
+    width: 100%;
+    height: 2px;
+    background-color: #000000;
+  }
+
+  /* Media Query for Hamburger Menu */
+  @media only screen and (max-width: 768px) {
+    .navbar-links {
+      display: none;
+    }
+
+    .navbar-hamburger {
+      display: flex;
+    }
+
+    .navbar-menu {
+      position: static;
+      flex-direction: row;
+      background-color: transparent;
+      opacity: 1;
+    }
+
+    .navbar-menu li {
+      margin-right: 15px;
+    }
+
+    .navbar-menu li:last-child {
+      margin-right: 0;
+    }
+  }
+
+      /* Add any additional CSS styles for enhanced UI design here */
+      .menu-item {
+        border: 1px solid #ccc;
+        padding: 20px;
+        margin-bottom: 20px;
+      }
+  
+      .menu-item h2 {
+        margin-top: 0;
+      }
+  
+      .menu-item input[type="file"] {
+        display: none;
+      }
+  
+      .menu-item label {
+        display: block;
+        background-color: #4CAF50;
+        color: white;
+        padding: 8px 16px;
+        cursor: pointer;
+        border-radius: 4px;
+        text-align: center;
+        margin-bottom: 10px;
+      }
+  
+      .menu-item .view-menu-btn {
+        display: inline-block;
+        background-color: #4CAF50;
+        color: white;
+        padding: 8px 16px;
+        cursor: pointer;
+        border-radius: 4px;
+        text-decoration: none;
+      }
+  
+      .menu-item .view-menu-btn:hover {
+        background-color: #45a049;
+      }
+  
+      .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 20px;
+        background-color: #f8ae6e;
+      }
+  
+      .navbar-logo {
+        font-size: 24px;
+        font-weight: bold;
+      }
+  
+      .navbar-links {
+        display: none;
+      }
+  
+      .navbar-menu {
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: #f9f9f9;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 20px;
+        transition: opacity 0.3s ease-in-out;
+        opacity: 0;
+      }
+  
+      .navbar-menu.open {
+        opacity: 1;
+        display: flex;
+      }
+  
+      .navbar-menu li {
+        margin-bottom: 10px;
+      }
+  
+      .navbar-hamburger {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30px;
+        height: 20px;
+        cursor: pointer;
+      }
+  
+      .navbar-hamburger span {
+        width: 100%;
+        height: 2px;
+        background-color: #000000;
+      }
+  
+      /* Media Query for Hamburger Menu */
+      @media only screen and (max-width: 768px) {
+        .navbar-links {
+          display: none;
+        }
+  
+        .navbar-hamburger {
+          display: flex;
+        }
+  
+        .navbar-menu {
+          position: static;
+          flex-direction: row;
+          background-color: transparent;
+          opacity: 1;
+        }
+  
+        .navbar-menu li {
+          margin-right: 15px;
+        }
+  
+        .navbar-menu li:last-child {
+          margin-right: 0;
+        }
+      }
